@@ -1,1 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
 
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.title {
+	width: 100%;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	background: black;
+	color: white;
+}
+
+.links {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border: 3px solid red;
+	width: 100%;
+	flex: 1 1 100%;
+}
+
+nav li {
+	display: inline-flex;
+	justify-content: center;
+	padding: 50px 60px;
+	margin: -2px;
+	background: black;
+	border: 3px solid black;
+	color: white;
+}
