@@ -4,15 +4,13 @@
 	box-sizing: border-box;
 }
 
-h1 {
-}
-
 .box1 {
 	background: black;
 }
 .box2 {
-	background: black;
+	background: rgb(0, 0, 0);
 }
+
 .box3 {
 	background: blue;
 }
@@ -20,7 +18,7 @@ h1 {
 	background: yellow;
 }
 .box5 {
-	background: green;
+	background: white;
 }
 .box6 {
 	background: pink;
@@ -29,19 +27,16 @@ h1 {
 	background: teal;
 }
 .box8 {
-	background: black;
+	background: white;
 }
 .box9 {
-	background: brown;
-}
-.box10 {
-	background: purple;
+	background: black;
 }
 
 nav li {
 	display: inline-flex;
 	padding: 5px 40px;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 a {
@@ -58,14 +53,12 @@ a:visited {
 	align-content: flex-start;
 	justify-content: center;
 	flex-wrap: wrap;
-	min-height: 100vh;
 }
 
 .box {
 	color: white;
 	font-size: 100px;
 	text-align: center;
-
 	width: 33.3333%;
 }
 
@@ -179,6 +172,49 @@ a:visited {
 	text-align: left;
 }
 
-.box10 {
+.box5 {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: start;
+}
+
+.box5 h3 {
+	font-size: 25px;
+}
+
+.box5 p {
+	font-size: 16px;
+	padding: 20px 0;
+	width: 300px;
+}
+
+.box8 {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: start;
+	margin: 60px 0 0 0;
+}
+
+.box8 h3 {
+	font-size: 25px;
+}
+
+.box8 p {
+	font-size: 16px;
+	padding: 20px 0;
+	width: 300px;
+}
+
+.box9 {
 	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+.box9 span {
+	padding: 30px;
 }
