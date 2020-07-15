@@ -78,22 +78,45 @@ a:visited {
 	}
 }
 
+.body-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 20px 60px;
+}
+
+.just-in {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	padding-left: 70px;
+}
+
 .page-main {
 	display: flex;
 	flex-wrap: wrap;
 	min-height: 100vh;
-	align-content: stretch;
+	align-content: flex-start;
+	width: 45%;
 }
 
 .box {
 	flex-grow: 1;
 }
 
+.live p {
+	padding: 10px 0;
+}
+
+.local p {
+	padding: 10px 0;
+}
+
 .box1 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	flex-basis: 33.33%;
+	flex-basis: 50%;
 }
 
 .box1 div {
@@ -113,7 +136,7 @@ a:visited {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	flex-basis: 40%;
+	flex-basis: 50%;
 }
 
 .box2 div {
@@ -131,10 +154,11 @@ a:visited {
 }
 
 .box3 {
+	padding: 50px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	flex-basis: 33.33%;
+	flex-basis: 50%;
 }
 
 .box3 div {
@@ -151,10 +175,11 @@ a:visited {
 }
 
 .box4 {
+	padding: 50px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	flex-basis: 40%;
+	flex-basis: 50%;
 }
 
 .box4 div {
